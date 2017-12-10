@@ -2,7 +2,27 @@
 <html>
 <head>
 <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
 
+}
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
 div.container {
     width: 100%;
     border: 1px solid gray;
@@ -17,6 +37,23 @@ header, footer {
 
 }
 
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+
 </style>
 </head>
 <body>
@@ -26,6 +63,15 @@ header, footer {
 <header>
    <h1>Programming</h1>
 </header>
+
+<nav>
+  <ul>
+    <li><a href="aboutus.htm">About us</a></li>
+    <li><a href="aboutme.htm">About me</a></li>
+    <li><a href="contactus.htm">Contact us</a></li>
+  </ul>
+</nav>
+
 
 <footer>Copyright &copy; mary2002</footer>
 
